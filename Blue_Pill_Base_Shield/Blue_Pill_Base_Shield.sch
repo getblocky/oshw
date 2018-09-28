@@ -1420,6 +1420,72 @@ A3 Larger Frame</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Seeed-Connector">
+<packages>
+<package name="H6-2.54">
+<wire x1="-1.27" y1="7.62" x2="1.27" y2="7.62" width="0.127" layer="21"/>
+<wire x1="1.27" y1="7.62" x2="1.27" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-7.62" x2="-1.27" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-7.62" x2="-1.27" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="7.62" x2="1.27" y2="7.62" width="0" layer="39"/>
+<wire x1="1.27" y1="7.62" x2="1.27" y2="-7.62" width="0" layer="39"/>
+<wire x1="1.27" y1="-7.62" x2="-1.27" y2="-7.62" width="0" layer="39"/>
+<wire x1="-1.27" y1="-7.62" x2="-1.27" y2="7.62" width="0" layer="39"/>
+<pad name="1" x="0" y="6.35" drill="0.889" diameter="1.651" shape="square"/>
+<pad name="2" x="0" y="3.81" drill="0.889" diameter="1.651"/>
+<pad name="3" x="0" y="1.27" drill="0.889" diameter="1.651"/>
+<pad name="4" x="0" y="-1.27" drill="0.889" diameter="1.651"/>
+<pad name="5" x="0" y="-3.81" drill="0.889" diameter="1.651"/>
+<pad name="6" x="0" y="-6.35" drill="0.889" diameter="1.651"/>
+<text x="2.54" y="-1.905" size="0.889" layer="27" ratio="11" rot="R90">&gt;value</text>
+<text x="-1.905" y="-1.905" size="0.889" layer="25" ratio="11" rot="R90">&gt;name</text>
+<text x="0.635" y="-2.54" size="0.635" layer="33" ratio="10" rot="R90">&gt;name</text>
+<rectangle x1="-1.27" y1="-7.62" x2="1.27" y2="7.62" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="HEADER-6P">
+<wire x1="-2.54" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="-8.89" y="8.89" size="1.27" layer="95" ratio="10">&gt;name</text>
+<text x="-2.54" y="8.89" size="1.27" layer="96" ratio="10">&gt;value</text>
+<pin name="1" x="-7.62" y="6.35" visible="pad" length="middle" function="dotclk"/>
+<pin name="2" x="-7.62" y="3.81" visible="pad" length="middle"/>
+<pin name="3" x="-7.62" y="1.27" visible="pad" length="middle"/>
+<pin name="4" x="-7.62" y="-1.27" visible="pad" length="middle"/>
+<pin name="5" x="-7.62" y="-3.81" visible="pad" length="middle"/>
+<pin name="6" x="-7.62" y="-6.35" visible="pad" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DIP-YELLOW-FEMALE-HEADER-VERT(6P-2.54)" prefix="J" uservalue="yes">
+<description>320030019</description>
+<gates>
+<gate name="G$1" symbol="HEADER-6P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="H6-2.54">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="F185-1106A1BSYA3" constant="no"/>
+<attribute name="VALUE" value="YELLOW-6P-2.54" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1446,6 +1512,7 @@ A3 Larger Frame</description>
 <part name="J8" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" package3d_urn="urn:adsk.eagle:package:33111/1" value="4P-2.0"/>
 <part name="J4" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" package3d_urn="urn:adsk.eagle:package:33111/1" value="4P-2.0"/>
 <part name="J5" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" package3d_urn="urn:adsk.eagle:package:33111/1" value="4P-2.0"/>
+<part name="UART" library="Seeed-Connector" deviceset="DIP-YELLOW-FEMALE-HEADER-VERT(6P-2.54)" device="" value="YELLOW-6P-2.54"/>
 </parts>
 <sheets>
 <sheet>
@@ -1467,6 +1534,9 @@ A3 Larger Frame</description>
 <instance part="J8" gate="G$1" x="247.65" y="213.36"/>
 <instance part="J4" gate="G$1" x="300.99" y="231.14"/>
 <instance part="J5" gate="G$1" x="300.99" y="213.36"/>
+<instance part="UART" gate="G$1" x="242.57" y="172.72" smashed="yes">
+<attribute name="NAME" x="233.68" y="181.61" size="1.27" layer="95" ratio="10"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1484,6 +1554,10 @@ A3 Larger Frame</description>
 <pinref part="J8" gate="G$1" pin="3"/>
 <label x="271.78" y="212.09" size="1.778" layer="95"/>
 <label x="254" y="212.09" size="1.778" layer="95"/>
+<wire x1="297.18" y1="212.09" x2="279.4" y2="212.09" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="3"/>
+<label x="289.56" y="212.09" size="1.778" layer="95"/>
+<junction x="279.4" y="212.09"/>
 </segment>
 <segment>
 <wire x1="279.4" y1="229.87" x2="261.62" y2="229.87" width="0.1524" layer="91"/>
@@ -1497,6 +1571,10 @@ A3 Larger Frame</description>
 <pinref part="J3" gate="G$1" pin="3"/>
 <label x="252.73" y="229.87" size="1.778" layer="95"/>
 <label x="271.78" y="229.87" size="1.778" layer="95"/>
+<wire x1="297.18" y1="229.87" x2="279.4" y2="229.87" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="3"/>
+<label x="288.29" y="229.87" size="1.778" layer="95"/>
+<junction x="279.4" y="229.87"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -1510,14 +1588,9 @@ A3 Larger Frame</description>
 <label x="176.53" y="233.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="297.18" y1="212.09" x2="279.4" y2="212.09" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="3"/>
-<label x="289.56" y="212.09" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="297.18" y1="229.87" x2="279.4" y2="229.87" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="3"/>
-<label x="288.29" y="229.87" size="1.778" layer="95"/>
+<pinref part="UART" gate="G$1" pin="6"/>
+<wire x1="234.95" y1="166.37" x2="227.33" y2="166.37" width="0.1524" layer="91"/>
+<label x="222.25" y="166.37" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DGND" class="0">
@@ -1534,6 +1607,7 @@ A3 Larger Frame</description>
 <pinref part="J8" gate="G$1" pin="4"/>
 <label x="271.78" y="209.55" size="1.778" layer="95"/>
 <label x="254" y="209.55" size="1.778" layer="95"/>
+<junction x="279.4" y="209.55"/>
 </segment>
 <segment>
 <wire x1="279.4" y1="227.33" x2="261.62" y2="227.33" width="0.1524" layer="91"/>
@@ -1548,6 +1622,10 @@ A3 Larger Frame</description>
 <pinref part="J3" gate="G$1" pin="4"/>
 <label x="252.73" y="227.33" size="1.778" layer="95"/>
 <label x="271.78" y="227.33" size="1.778" layer="95"/>
+<wire x1="297.18" y1="227.33" x2="279.4" y2="227.33" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="4"/>
+<label x="288.29" y="227.33" size="1.778" layer="95"/>
+<junction x="279.4" y="227.33"/>
 </segment>
 <segment>
 <wire x1="167.64" y1="236.22" x2="176.53" y2="236.22" width="0.1524" layer="91"/>
@@ -1560,14 +1638,14 @@ A3 Larger Frame</description>
 <label x="176.53" y="238.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="297.18" y1="227.33" x2="279.4" y2="227.33" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="4"/>
-<label x="288.29" y="227.33" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="297.18" y1="209.55" x2="279.4" y2="209.55" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="209.55" x2="280.67" y2="209.55" width="0.1524" layer="91"/>
 <pinref part="J5" gate="G$1" pin="4"/>
 <label x="289.56" y="209.55" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="UART" gate="G$1" pin="2"/>
+<wire x1="234.95" y1="176.53" x2="227.33" y2="176.53" width="0.1524" layer="91"/>
+<label x="219.71" y="176.53" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA9" class="0">
@@ -1581,6 +1659,11 @@ A3 Larger Frame</description>
 <wire x1="127" y1="226.06" x2="118.11" y2="226.06" width="0.1524" layer="91"/>
 <label x="113.03" y="226.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="UART" gate="G$1" pin="4"/>
+<wire x1="234.95" y1="171.45" x2="227.33" y2="171.45" width="0.1524" layer="91"/>
+<label x="222.25" y="171.45" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PA10" class="0">
 <segment>
@@ -1592,6 +1675,11 @@ A3 Larger Frame</description>
 <pinref part="U$5" gate="G$1" pin="PA10"/>
 <wire x1="127" y1="223.52" x2="118.11" y2="223.52" width="0.1524" layer="91"/>
 <label x="113.03" y="223.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="UART" gate="G$1" pin="3"/>
+<wire x1="234.95" y1="173.99" x2="227.33" y2="173.99" width="0.1524" layer="91"/>
+<label x="222.25" y="173.99" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB6" class="0">
@@ -1648,12 +1736,22 @@ A3 Larger Frame</description>
 <wire x1="297.18" y1="234.95" x2="293.878" y2="234.95" width="0.1524" layer="91"/>
 <label x="288.29" y="234.95" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="PB10"/>
+<wire x1="167.64" y1="226.06" x2="176.53" y2="226.06" width="0.1524" layer="91"/>
+<label x="176.53" y="226.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PB11" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="232.41" x2="293.878" y2="232.41" width="0.1524" layer="91"/>
 <label x="288.29" y="232.41" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="PB11"/>
+<wire x1="167.64" y1="228.6" x2="176.53" y2="228.6" width="0.1524" layer="91"/>
+<label x="176.53" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA0" class="0">
@@ -1760,16 +1858,34 @@ A3 Larger Frame</description>
 <label x="120.65" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PB12" class="0">
+<net name="5V" class="0">
 <segment>
-<wire x1="118.11" y1="238.76" x2="127" y2="238.76" width="0.1524" layer="91"/>
-<label x="111.76" y="238.76" size="1.778" layer="95"/>
-<pinref part="U$5" gate="G$1" pin="PB12"/>
+<pinref part="UART" gate="G$1" pin="1"/>
+<wire x1="234.95" y1="179.07" x2="227.33" y2="179.07" width="0.1524" layer="91"/>
+<label x="222.25" y="179.07" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="5V"/>
+<wire x1="127" y1="195.58" x2="118.11" y2="195.58" width="0.1524" layer="91"/>
+<label x="113.03" y="195.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC" class="0">
+<segment>
+<pinref part="UART" gate="G$1" pin="5"/>
+<wire x1="234.95" y1="168.91" x2="227.33" y2="168.91" width="0.1524" layer="91"/>
+<label x="222.25" y="168.91" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,167.64,238.76,U$5,GND1,DGND,,,"/>
+<approved hash="106,1,234.95,168.91,NC,,,,,"/>
+<approved hash="111,1,282.575,209.55,DGND,,,,,"/>
+<approved hash="113,1,147.32,214.63,U$5,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
