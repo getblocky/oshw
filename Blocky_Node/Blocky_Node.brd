@@ -19,10 +19,10 @@
 <layer number="22" name="bPlace" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="3" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="3" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
@@ -203,34 +203,34 @@
 <circle x="3.556" y="1.905" radius="2" width="0.1524" layer="49"/>
 <circle x="3.556" y="50.8" radius="2" width="0.1524" layer="49"/>
 <circle x="44.704" y="50.8" radius="2" width="0.1524" layer="49"/>
-<text x="12.827" y="40.767" size="0.8128" layer="25" ratio="11" rot="R90">3V3</text>
-<text x="12.827" y="43.307" size="0.8128" layer="25" ratio="11" rot="R90">GND</text>
-<text x="12.954" y="36.957" size="0.8128" layer="25" ratio="11" rot="R90">14</text>
-<text x="12.827" y="38.862" size="0.8128" layer="25" ratio="11" rot="R90">12</text>
-<text x="12.573" y="26.67" size="0.8128" layer="25" ratio="11" rot="R90">3V3</text>
-<text x="12.573" y="28.956" size="0.8128" layer="25" ratio="11" rot="R90">GND</text>
-<text x="12.7" y="22.987" size="0.8128" layer="25" ratio="11" rot="R90">12</text>
-<text x="12.573" y="24.765" size="0.8128" layer="25" ratio="11" rot="R90">13</text>
-<text x="12.7" y="12.7" size="0.8128" layer="25" ratio="11" rot="R90">3V3</text>
-<text x="12.7" y="15.367" size="0.8128" layer="25" ratio="11" rot="R90">GND</text>
-<text x="12.7" y="9.144" size="0.8128" layer="25" ratio="11" rot="R90">13</text>
-<text x="12.7" y="11.43" size="0.8128" layer="25" ratio="11" rot="R90">2</text>
-<text x="36.322" y="29.337" size="0.8128" layer="25" ratio="11" rot="R90">3</text>
-<text x="36.322" y="27.559" size="0.8128" layer="25" ratio="11" rot="R90">1</text>
-<text x="36.322" y="35.941" size="0.8128" layer="25" ratio="11" rot="R90">GND</text>
-<text x="36.322" y="38.481" size="0.8128" layer="25" ratio="11" rot="R90">3V3</text>
-<text x="36.322" y="41.021" size="0.8128" layer="25" ratio="11" rot="R90">NC</text>
-<text x="36.322" y="43.053" size="0.8128" layer="25" ratio="11" rot="R90">A0</text>
-<text x="36.322" y="22.86" size="0.8128" layer="25" ratio="11" rot="R90">G</text>
-<text x="36.322" y="24.892" size="0.8128" layer="25" ratio="11" rot="R90">3V3</text>
-<text x="36.322" y="13.462" size="0.8128" layer="25" ratio="11" rot="R90">4</text>
-<text x="36.322" y="15.367" size="0.8128" layer="25" ratio="11" rot="R90">5</text>
-<text x="36.322" y="8.255" size="0.8128" layer="25" ratio="11" rot="R90">GND</text>
-<text x="36.322" y="10.795" size="0.8128" layer="25" ratio="11" rot="R90">3V3</text>
-<text x="6.858" y="-0.635" size="0.762" layer="25" ratio="13">CONFIG</text>
-<text x="37.084" y="-0.635" size="0.762" layer="25" ratio="13">RESET</text>
-<text x="15.6845" y="8.255" size="1.27" layer="21" ratio="11">+</text>
-<text x="20.32" y="8.255" size="1.27" layer="21" ratio="11">-</text>
+<text x="12.827" y="40.767" size="0.8128" layer="21" ratio="11" rot="R90">3V3</text>
+<text x="12.827" y="43.307" size="0.8128" layer="21" ratio="11" rot="R90">GND</text>
+<text x="12.954" y="36.957" size="0.8128" layer="21" ratio="11" rot="R90">14</text>
+<text x="12.827" y="38.862" size="0.8128" layer="21" ratio="11" rot="R90">12</text>
+<text x="12.573" y="26.67" size="0.8128" layer="21" ratio="11" rot="R90">3V3</text>
+<text x="12.573" y="28.956" size="0.8128" layer="21" ratio="11" rot="R90">GND</text>
+<text x="12.7" y="22.987" size="0.8128" layer="21" ratio="11" rot="R90">12</text>
+<text x="12.573" y="24.765" size="0.8128" layer="21" ratio="11" rot="R90">13</text>
+<text x="12.7" y="12.7" size="0.8128" layer="21" ratio="11" rot="R90">3V3</text>
+<text x="12.7" y="15.367" size="0.8128" layer="21" ratio="11" rot="R90">GND</text>
+<text x="12.7" y="9.144" size="0.8128" layer="21" ratio="11" rot="R90">13</text>
+<text x="12.7" y="11.43" size="0.8128" layer="21" ratio="11" rot="R90">2</text>
+<text x="36.322" y="29.337" size="0.8128" layer="21" ratio="11" rot="R90">3</text>
+<text x="36.322" y="27.559" size="0.8128" layer="21" ratio="11" rot="R90">1</text>
+<text x="36.322" y="35.941" size="0.8128" layer="21" ratio="11" rot="R90">GND</text>
+<text x="36.322" y="38.481" size="0.8128" layer="21" ratio="11" rot="R90">3V3</text>
+<text x="36.322" y="41.021" size="0.8128" layer="21" ratio="11" rot="R90">NC</text>
+<text x="36.322" y="43.053" size="0.8128" layer="21" ratio="11" rot="R90">A0</text>
+<text x="36.322" y="22.86" size="0.8128" layer="21" ratio="11" rot="R90">G</text>
+<text x="36.322" y="24.892" size="0.8128" layer="21" ratio="11" rot="R90">3V3</text>
+<text x="36.322" y="13.462" size="0.8128" layer="21" ratio="11" rot="R90">4</text>
+<text x="36.322" y="15.367" size="0.8128" layer="21" ratio="11" rot="R90">5</text>
+<text x="36.322" y="8.255" size="0.8128" layer="21" ratio="11" rot="R90">GND</text>
+<text x="36.322" y="10.795" size="0.8128" layer="21" ratio="11" rot="R90">3V3</text>
+<text x="6.858" y="-0.635" size="0.762" layer="21" ratio="13">CONFIG</text>
+<text x="37.084" y="-0.635" size="0.762" layer="21" ratio="13">RESET</text>
+<text x="15.6845" y="8.255" size="1.6764" layer="21" ratio="11">+</text>
+<text x="20.066" y="8.255" size="1.6764" layer="21" ratio="11">-</text>
 <text x="13.97" y="3.175" size="0.889" layer="21" ratio="11" rot="R90">BAT</text>
 <text x="35.179" y="29.21" size="0.8128" layer="25" ratio="11" rot="R90">RX</text>
 <text x="35.179" y="27.305" size="0.8128" layer="25" ratio="11" rot="R90">TX</text>
@@ -252,12 +252,12 @@
 <wire x1="0" y1="46.0375" x2="0" y2="49.15154375" width="0.2032" layer="49"/>
 <wire x1="0" y1="49.15154375" x2="4.59485625" y2="53.7464" width="0.2032" layer="49" curve="-90"/>
 <wire x1="4.59485625" y1="53.7464" x2="8.74521875" y2="53.7464" width="0.2032" layer="49"/>
-<text x="1.397" y="37.973" size="0.889" layer="25" ratio="11" rot="R90">Digital0</text>
-<text x="1.397" y="24.003" size="0.889" layer="25" ratio="11" rot="R90">Digital1</text>
-<text x="1.397" y="10.033" size="0.889" layer="25" ratio="11" rot="R90">Digital2</text>
-<text x="47.498" y="38.481" size="0.889" layer="25" ratio="11" rot="R90">Analog</text>
-<text x="47.625" y="25.0825" size="0.889" layer="25" ratio="11" rot="R90">UART</text>
-<text x="47.625" y="11.7475" size="0.889" layer="25" ratio="11" rot="R90">I2C</text>
+<text x="1.397" y="37.973" size="0.889" layer="21" ratio="11" rot="R90">Digital0</text>
+<text x="1.397" y="24.003" size="0.889" layer="21" ratio="11" rot="R90">Digital1</text>
+<text x="1.397" y="10.033" size="0.889" layer="21" ratio="11" rot="R90">Digital2</text>
+<text x="47.498" y="38.481" size="0.889" layer="21" ratio="11" rot="R90">Analog</text>
+<text x="47.625" y="25.0825" size="0.889" layer="21" ratio="11" rot="R90">UART</text>
+<text x="47.625" y="11.7475" size="0.889" layer="21" ratio="11" rot="R90">I2C</text>
 <rectangle x1="16.383" y1="46.228" x2="32.258" y2="53.467" layer="41"/>
 <rectangle x1="16.383" y1="46.228" x2="32.258" y2="53.467" layer="42"/>
 <text x="38.608" y="28.956" size="2.1844" layer="22" font="vector" ratio="16" rot="MR0">Blocky NODE WiFi</text>
