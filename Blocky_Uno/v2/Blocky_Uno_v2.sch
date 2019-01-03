@@ -9,34 +9,34 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="10" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="5" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="3" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="3" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="3" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="5" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="3" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="3" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="3" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="3" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="3" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="3" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="3" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="3" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,20 +54,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="bCAD" color="11" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="11" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -4140,44 +4140,6 @@ http://www.datasheetcatalog.org/datasheet/SGSThomsonMicroelectronics/mXuqtqv.pdf
 </package>
 </packages>
 <symbols>
-<symbol name="SEEEDSTUDIO_SCH_FRAME">
-<wire x1="135.89" y1="3.81" x2="175.387" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="175.387" y1="3.81" x2="210.82" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="210.82" y1="3.81" x2="233.68" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="233.68" y1="3.81" x2="256.54" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="3.81" x2="256.54" y2="10.16" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="10.16" x2="256.54" y2="16.51" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="16.51" x2="256.54" y2="25.4" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="25.4" x2="256.54" y2="36.83" width="0.1016" layer="94"/>
-<wire x1="135.89" y1="3.81" x2="135.89" y2="10.16" width="0.1016" layer="94"/>
-<wire x1="135.89" y1="10.16" x2="135.89" y2="16.51" width="0.1016" layer="94"/>
-<wire x1="175.387" y1="36.83" x2="256.54" y2="36.83" width="0.1016" layer="94"/>
-<wire x1="210.82" y1="3.81" x2="210.82" y2="10.16" width="0.1016" layer="94"/>
-<wire x1="210.82" y1="10.16" x2="233.68" y2="10.16" width="0.1016" layer="94"/>
-<wire x1="233.68" y1="10.16" x2="256.54" y2="10.16" width="0.1016" layer="94"/>
-<wire x1="210.82" y1="10.16" x2="175.387" y2="10.16" width="0.1016" layer="94"/>
-<wire x1="175.387" y1="10.16" x2="175.387" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="175.387" y1="10.16" x2="175.387" y2="16.51" width="0.1016" layer="94"/>
-<wire x1="175.387" y1="16.51" x2="210.82" y2="16.51" width="0.1016" layer="94"/>
-<wire x1="210.82" y1="16.51" x2="256.54" y2="16.51" width="0.1016" layer="94"/>
-<wire x1="175.387" y1="16.51" x2="175.387" y2="25.4" width="0.1016" layer="94"/>
-<wire x1="175.387" y1="25.4" x2="256.54" y2="25.4" width="0.1016" layer="94"/>
-<wire x1="175.387" y1="25.4" x2="175.387" y2="36.83" width="0.1016" layer="94"/>
-<text x="191.77" y="19.05" size="2.032" layer="94" font="vector" ratio="10">&gt;DRAWING_NAME</text>
-<text x="246.38" y="5.08" size="1.778" layer="94" font="vector" ratio="10">&gt;SHEET</text>
-<text x="234.95" y="5.08" size="2.032" layer="94" font="vector" ratio="10">Sheet:</text>
-<text x="177.8" y="27.94" size="6.4516" layer="94" ratio="12">SeeedStudio</text>
-<text x="177.8" y="19.05" size="2.54" layer="94" ratio="10">TITLE:</text>
-<text x="177.8" y="11.43" size="2.032" layer="94" ratio="10">Design:</text>
-<wire x1="210.82" y1="10.16" x2="210.82" y2="16.51" width="0.1016" layer="94"/>
-<text x="212.09" y="11.43" size="2.032" layer="94" ratio="10">Check:</text>
-<text x="177.8" y="5.08" size="2.032" layer="94" ratio="10">Date:</text>
-<wire x1="135.89" y1="16.51" x2="175.26" y2="16.51" width="0.1016" layer="94"/>
-<wire x1="233.68" y1="3.81" x2="233.68" y2="10.16" width="0.1016" layer="94"/>
-<text x="212.09" y="5.08" size="2.032" layer="94" ratio="10">Vision:</text>
-<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
-<text x="186.69" y="5.08" size="1.27" layer="94" ratio="10">&gt;Last_date_time</text>
-</symbol>
 <symbol name="SEEEDUINO">
 <wire x1="-33.02" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="94"/>
 <wire x1="33.02" y1="25.4" x2="33.02" y2="-25.4" width="0.1524" layer="94"/>
@@ -4224,18 +4186,6 @@ http://www.datasheetcatalog.org/datasheet/SGSThomsonMicroelectronics/mXuqtqv.pdf
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SEEEDSTUDIO_SCH_FRAME">
-<gates>
-<gate name="G$1" symbol="SEEEDSTUDIO_SCH_FRAME" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ARDUINO-38P" prefix="U" uservalue="yes">
 <gates>
 <gate name="SEEEDUINO" symbol="SEEEDUINO" x="0" y="0"/>
@@ -5936,6 +5886,58 @@ Example datasheet (CSTCE_VH3L)</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Aesthetics">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="FR-A4L">
+<rectangle x1="178.7652" y1="0" x2="179.3748" y2="20.32" layer="94"/>
+<rectangle x1="225.7552" y1="-26.67" x2="226.3648" y2="67.31" layer="94" rot="R90"/>
+<wire x1="225.29" y1="-0.1" x2="225.29" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="225.29" y1="5.08" x2="273.05" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="225.29" y1="5.08" x2="179.07" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="179.07" y1="10.16" x2="225.29" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="225.29" y1="10.16" x2="273.05" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="179.07" y1="15.24" x2="273.05" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="225.29" y1="5.08" x2="225.29" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="179.07" y1="19.05" x2="179.07" y2="20.32" width="0.6096" layer="94"/>
+<wire x1="179.07" y1="20.32" x2="180.34" y2="20.32" width="0.6096" layer="94"/>
+<text x="181.61" y="11.43" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="181.61" y="6.35" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="195.58" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="181.61" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="181.61" y="16.51" size="2.54" layer="94" font="vector">&gt;CNAME</text>
+<text x="226.16" y="1.27" size="2.54" layer="94" font="vector">Rev:</text>
+<text x="226.26" y="6.35" size="2.54" layer="94" font="vector">&gt;DESIGNER</text>
+<text x="234.92" y="1.17" size="2.54" layer="94" font="vector">&gt;CREVISION</text>
+<frame x1="-3.81" y1="-3.81" x2="276.86" y2="182.88" columns="8" rows="5" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FRAME-A4L" prefix="FRAME">
+<description>&lt;b&gt;Schematic Frame-European Format&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+Standard A4 size frame in Landscape</description>
+<gates>
+<gate name="G$1" symbol="FR-A4L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5969,7 +5971,6 @@ Example datasheet (CSTCE_VH3L)</description>
 <part name="R11" library="Discrete" deviceset="R*" device="-0603" value="10k"/>
 <part name="C7" library="Discrete" deviceset="C*" device="-0603" value="100nF"/>
 <part name="RESET" library="Discrete" deviceset="BUTTON-4P-REINFORCE" device="'TS-1188E'" value="TS-118E"/>
-<part name="U$1" library="moudle" deviceset="SEEEDSTUDIO_SCH_FRAME" device=""/>
 <part name="D7" library="Connector" deviceset="TWIG-4P-2.0" device="-2.0" value="DIP Grove"/>
 <part name="U$6" library="Power or GND " deviceset="GND_POWER" device=""/>
 <part name="U1" library="IC" deviceset="LD1117" device="'SOT89'" value="1117-3.3V"/>
@@ -5999,12 +6000,11 @@ Example datasheet (CSTCE_VH3L)</description>
 <part name="D-1" library="Discrete" deviceset="PAD-TEST-POINT" device="'4545'"/>
 <part name="D+1" library="Discrete" deviceset="PAD-TEST-POINT" device="'4545'"/>
 <part name="U$15" library="Power or GND " deviceset="GND_POWER" device=""/>
+<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="190.5" y="11.43" size="1.778" layer="97" ratio="10">Wangcf</text>
-<text x="224.79" y="11.43" size="1.778" layer="97" ratio="10">Bruce</text>
 </plain>
 <instances>
 <instance part="UART" gate="G$1" x="12.7" y="165.1" smashed="yes" rot="R180">
@@ -6078,11 +6078,6 @@ Example datasheet (CSTCE_VH3L)</description>
 <instance part="RESET" gate="SW" x="143.51" y="146.05" smashed="yes">
 <attribute name="NAME" x="138.43" y="149.86" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="144.78" y="149.86" size="1.27" layer="96" ratio="10"/>
-</instance>
-<instance part="U$1" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="DRAWING_NAME" x="191.77" y="19.05" size="2.032" layer="94" font="vector" ratio="10"/>
-<attribute name="SHEET" x="246.38" y="5.08" size="1.778" layer="94" font="vector" ratio="10"/>
-<attribute name="LAST_DATE_TIME" x="186.69" y="5.08" size="1.27" layer="94" ratio="10"/>
 </instance>
 <instance part="D7" gate="G$1" x="111.76" y="165.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="113.03" y="160.02" size="1.27" layer="95" rot="R180"/>
@@ -6182,6 +6177,11 @@ Example datasheet (CSTCE_VH3L)</description>
 </instance>
 <instance part="U$15" gate="G$1" x="99.568" y="49.022" smashed="yes" rot="R270">
 <attribute name="VALUE" x="96.393" y="50.927" size="0.8128" layer="96" rot="R270"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="-2.54" y="5.08" smashed="yes">
+<attribute name="DRAWING_NAME" x="179.07" y="16.51" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="179.07" y="11.43" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="193.04" y="6.35" size="2.54" layer="94" font="vector"/>
 </instance>
 </instances>
 <busses>
