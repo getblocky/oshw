@@ -193,7 +193,7 @@
 <text x="33.909" y="4.699" size="2.54" layer="106" ratio="10">A2</text>
 <text x="43.561" y="4.572" size="2.54" layer="106" ratio="10">A4</text>
 <text x="53.467" y="4.445" size="2.54" layer="106" ratio="10">UART</text>
-<text x="29.718" y="12.065" size="2.286" layer="22" font="vector" ratio="12" rot="MR90">Blocky Uno ESP32</text>
+<text x="29.21" y="15.24" size="2.286" layer="22" font="vector" ratio="12" rot="MR90">Blocky ESP32</text>
 <wire x1="1.27" y1="0" x2="0" y2="1.27" width="0.0254" layer="20" curve="-90"/>
 <wire x1="0" y1="52.07" x2="1.27" y2="53.34" width="0.0254" layer="20" curve="-90"/>
 <wire x1="63.5" y1="53.34" x2="66.04" y2="50.8" width="0.0254" layer="20" curve="-90"/>
